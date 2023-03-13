@@ -30,7 +30,7 @@ standard algorithm for nuclear DAB detection in keratinocytes
 ### cytoColor
 * Parameters: binary image of whole epidermis, binary image of nuclei only, original image in LAB color space
 * Identifies the cytoplasm and calculates the average color as red/blue ratio for relative comparison to the nuclei color to account for variability of IHC staining.
-* Optimization for different stainings may not require this function. It was used for pGR quantification but not used for cMyc quantification due to different staining approaches.
+* Optimization for different stainings may not require this function. In developing this application, this function was used for pGR quantification but not used for cMyc quantification due to different staining approaches.
 
 ### maskMaker
 * Parameters: binary image of nuclei only, color image in LAB color space, array of contour coordinates
